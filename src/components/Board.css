@@ -1,0 +1,38 @@
+.board{
+    border-collapse: collapse;
+    border: 3px solid blue;
+    padding: 5px;
+    width: 300px;
+}
+
+.sudoku-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.subgridInput{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid black;
+}
+
+.rBorder{
+    border-right: 2px solid black;
+}
+
+.bBorder{
+    border-bottom: 2px solid black;
+}
+
+.checkButton{
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    background-color: #02d504;
+    font-weight: bold;
+}
